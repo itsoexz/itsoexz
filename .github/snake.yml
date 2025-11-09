@@ -1,0 +1,35 @@
+name: Generate an awesome snake
+
+on:
+  schedule:
+    ##
+    - cron: "0 0,12 * * *"
+  workflow_dispatch:
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      
+      ##
+      - name: Generate the snake
+        uses: Platane/snk@v3
+        id: snake-gif
+        with:
+          github_user_name: ${{ github.repository_owner }}  ##
+          outputs: |
+            dist/github-contribution-grid-snake.svg
+            dist/github-contribution-grid-snake-dark.svg?palette=github-dark  # Versión oscura opcional
+
+      ##
+      - name: Push to GitHub
+        uses: cpina/github-push-action@main
+        with:
+          commit_message: "chore: update snake"
+          
+          ##
+          branch: ${{ github.ref_name }}
