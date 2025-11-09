@@ -2,9 +2,8 @@ name: Generate Snake Animation
 
 on:
   schedule:
-    ##
     - cron: "0 0,12 * * *" 
-  workflow_dispatch: ##
+  workflow_dispatch:
 
 jobs:
   generate:
@@ -15,22 +14,15 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
       
-      ##
       - name: Generate the animated snake GIF
         uses: Platane/snk@v3
         with:
-          ##
           github_user_name: ${{ github.repository_owner }} 
-          
-          ##
           outputs: dist/github-contribution-grid-snake.gif
-          
-          ##
           snk_options: --animation
           
-      ##
       - name: Push the GIF to GitHub
         uses: cpina/github-push-action@main
         with:
           commit_message: "feat: generate snake animation"
-          branch: ${{ github.ref_name }} ##
+          branch: ${{ github.ref_name }}
