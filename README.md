@@ -16,7 +16,7 @@
 
 ###
 
-<p align="left">✨ Creating bugs since: one year<br>📚 I'm currently learning: cybersegurity<br>🎯 Goals: none for now<br>🎲 Real fact: love is all</p>
+<p align="left">✨ Creating bugs since: since birthr<br>📚 I'm currently learning: cybersecurity<br>🎯 Goals: none for now<br>🎲 Real fact: love is all</p>
 
 ###
 
