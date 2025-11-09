@@ -49,7 +49,3 @@
 </div>
 
 ###
-
-![GIF de la serpiente de contribuciones](dist/github-contribution-grid-snake.gif)
-
-###
