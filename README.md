@@ -50,6 +50,6 @@
 
 ###
 
-![github contribution grid snake animation](dist/github-contribution-grid-snake.gif)
+![GIF de la serpiente de contribuciones](dist/github-contribution-grid-snake.gif)
 
 ###
