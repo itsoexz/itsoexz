@@ -2,8 +2,10 @@ name: Generate Snake Animation
 
 on:
   schedule:
+    # Este trigger ejecuta la acción automáticamente cada 12 horas.
     - cron: "0 0,12 * * *" 
-  workflow_dispatch:
+  workflow_dispatch: 
+    # Este trigger te permite ejecutarlo manualmente desde la pestaña 'Actions'.
 
 jobs:
   generate:
