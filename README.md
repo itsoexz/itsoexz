@@ -1,35 +1,27 @@
-<h1 align="left">Hello world!</h1>
+<h1 align="left"># ~/.itsoexz</h1>
 
 ###
 
-<p align="left">I'm Itsoexz, a future pentester and OSINT Investigator.</p>
+<p align="left">Im Itsoexz, i just like code :/</p>
 
 ###
 
 <div align="left">
-  <img height="200" src="https://i.pinimg.com/originals/10/48/c4/1048c4fe6c7f87c4d1c99641f62ebedc.gif"  />
+  <img height="200" src="https://i.pinimg.com/originals/2c/5c/e3/2c5ce3685b849230f1f843d868f74271.gif"  />
 </div>
 
 ###
 
-<h2 align="left">About me</h2>
-
-###
-
-<p align="left">✨ Creating bugs since: since birthr<br>📚 I'm currently learning: cybersecurity<br>🎯 Goals: none for now<br>🎲 Real fact: love is all</p>
-
-###
-
-<h2 align="left">Code and skills</h2>
+<h2 align="left">!Skills</h2>
 
 ###
 
 <div align="left">
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" height="40" alt="javascript logo"  />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-plain.svg" height="40" alt="javascript logo"  />
   <img width="12" />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" height="40" alt="python logo"  />
   <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" height="40" alt="html5 logo"  />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-plain.svg" height="40" alt="html5 logo"  />
   <img width="12" />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" height="40" alt="vscode logo"  />
   <img width="12" />
@@ -44,8 +36,18 @@
 
 ###
 
-<div align="left">
-  <img src="https://visitor-badge.laobi.icu/badge?page_id=maurodesouzad.maurodesouzad&"  />
-</div>
+<h2 align="left">!Setup</h2>
+
+###
+
+<p align="left">💻 Os : Arch Linux<br>📖 Wm : Hyprland<br>👾 Terminal : Kitty<br>🔧 Tools: BlackArch</p>
+
+###
+
+<h2 align="left">!Certs</h2>
+
+###
+
+<p align="left">🕐 Google coursera<br>🕑 Hackthebox academy<br>🕒 Hack4u<br>🕓 Tryhackme<br>🕔 Isc2<br>🕕 Burp suite</p>
 
 ###
